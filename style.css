@@ -1,0 +1,69 @@
+.content
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60%;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid grey;
+}
+.contenu
+{
+	margin: auto;
+}
+img
+{
+	max-height: 500px;
+	max-width: 500px;
+}
+#titre
+{
+	font-size: 24px;
+	float: left !important;
+}
+#datetime
+{
+	display: inline;
+	font-size: 16px;
+	float: right !important;
+}
+.bg-light
+{
+	background-color: rgba(236, 255, 179, 0.8) !important;
+}
+#ajout
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid grey;
+	padding: 20px;
+	width: 50%;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+h2, form
+{
+	margin: auto;
+}
+h2
+{
+	margin-bottom: 25px;
+}
+#link
+{
+	float: right;
+	font-size: 18px;
+	font-weight: bold;
+}
+#bodyblog
+{
+	background-image: url("fond_ajout.jpg");
+}
+.btnadmin
+{
+	display: inline;
+	margin-right: 15px;
+	/*display: none;*/
+}
